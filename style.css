@@ -1,0 +1,171 @@
+/* * {
+    outline: 1px solid red !important;
+} */
+
+
+.extra-jumbotron {
+    margin-top: 20px;
+    color: #fff;
+    /* inset image in top jumbotron header */
+    background-image:url(assets/images/river.jpeg); 
+    background-size: 100%;
+    border-style: solid 5x black;
+}
+
+body {
+    background-color: rgb(10, 9, 9);
+    padding-bottom: 70px;
+}
+
+/* home page main body css */
+.homecolumn {
+    float: left;
+    width: 60%;
+    height: auto;
+    margin-left: 50px; 
+}
+
+/* Specifically for About Page */
+.aboutcolumn {
+    float: left;
+    width: 60%;
+    height: 600px;
+    margin-left: 50px;
+    background-color: rgb(22, 21, 21);
+    padding: 20px 15px;
+}
+
+.thumbnail-caption {
+    position: absolute;
+    top: 65%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-bottom: 5px;
+    height: auto;
+    width: 230px;
+}
+
+.extra-thumbnail {
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+/* Portfolio Column */
+.portfoliocolumn {
+    float: left;
+    width: 60%;
+    height: auto;
+    margin-left: 15px;
+    background-color: rgb(22, 21, 21);
+    /* padding-left: 50px; */
+    padding: 10px 25px 30px 25px;
+}
+
+/* Contact Column */
+.contactcolumn {
+    float: left;
+    width: 60%;
+    height: auto;
+    margin-left: 15px;
+    background-color: rgb(22, 21, 21);
+    padding: 10px 25px 30px 25px;
+}
+
+/* side bar for all pages */
+.homesidebar {
+    float: right;
+    width: 30%;
+    height: 200px;
+    margin-right: 50px;
+    background-color: rgb(22, 21, 21);
+    padding: 15px 15px;
+    /* border: solid 5px white; */
+}
+
+.extra-h2 {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container-footer {
+    width: 100%;
+    color: white;
+    background-color: rgb(22, 21, 21);
+    line-height: 60px;
+    text-align: center;
+    display: block;
+    border: none;
+}
+
+.secondheader {
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+h1  {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+}
+
+.black  {
+    font-family: 'Abril Fatface', cursive;
+    color: black;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p2 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+h3 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+
+/* this starts the footer css */
+
+html,
+body {
+    height: 100%;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+        /* Negative indent footer by it's height */
+    margin: 0 auto 50px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+    height: 30px;
+}
+
+#footer {
+    color: white;
+    background-color: #353535;
+    text-align: center;
+}
+
+/* responsive CSS  */
+@media (max-width: 767px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+}
