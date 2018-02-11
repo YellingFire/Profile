@@ -3,11 +3,14 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Contact Me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
 </head>
 <body>
     <div class="container">
@@ -34,56 +37,57 @@
             </nav>
         <div id="wrap">
             <!-- Start Of the form -->
-            <section class="contactcolumn">
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputName2">Name</label>
-                        <input type="text" class="form-control" id="exampleInputName2" placeholder="John Doe">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                    </div>                
-                    <div class="form-group">
-                        <label for="textarea">Message</label>
-                        <textarea class="form-control" rows="10" placeholder="Message"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </form>
-            </section>
-                <!-- Start of the Sidebar -->
-                <container class="homesidebar">
-                        <div><h2 class="extra-h2">Connect with Me</h2></div>
-                        <div class="row">
-                            <!-- Github Link and Thumbnail -->
-                            <div class="col-sm-4">
-                                <div class="thumbnail">
-                                    <a href="https://github.com/YellingFire" target="blank">
-                                        <img src="assets/images/githubicon.png">                            
-                                    </a>    
-                                </div>
-                            </div>
-                            <!-- Linkedin Link and Thumbnail -->
-                            <div class="col-sm-4">    
-                                <div class="thumbnail">
-                                    <a href="https://www.linkedin.com/in/chad-chadwick-a3468776" target="blank">
-                                        <img src="assets/images/linkedinicon.png">
-                                    </a>    
-                                </div>
-                            </div>
-                            <!-- Stackoverflow Link and Thumbnail -->
-                            <div class="col-sm-4">    
-                                <div class="thumbnail">
-                                    <a href="https://stackoverflow.com/users/9163820/yelling-fire" target="blank">
-                                        <img src="assets/images/stackicon.png">
-                                    </a>    
-                                </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputName2">Name</label>
+                            <input type="text" class="form-control" id="exampleInputName2" placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                        </div>                
+                        <div class="form-group">
+                            <label for="textarea">Message</label>
+                            <textarea class="form-control" rows="10" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </div>    
+                <!-- Sidebar Starts Here -->
+                <div class="col-md-4">                    
+                    <div><h2 class="extra-h2">Connect with Me</h2></div>
+                    <div class="row">
+                        <!-- Git Hub Link and Thumbnail -->
+                        <div class="col-sm">
+                            <div class="thumbnail">
+                                <a href="https://github.com/YellingFire" target="blank">
+                                    <img src="assets/images/githubicon.png">
+                                </a>    
                             </div>
                         </div>
-                </container>
-            </section>
+                        <!-- Linkedin link and Thumbnail -->
+                        <div class="col-sm">    
+                            <div class="thumbnail">
+                                <a href="https://www.linkedin.com/in/chad-chadwick-a3468776" target="blank">
+                                    <img src="assets/images/linkedinicon.png">
+                                </a>    
+                            </div>
+                        </div>
+                        <!-- Stackoverflow link and Thumbnail -->
+                        <div class="col-sm">    
+                            <div class="thumbnail">
+                                <a href="https://stackoverflow.com/users/9163820/yelling-fire" target="blank">
+                                    <img src="assets/images/stackicon.png">
+                                </a>    
+                            </div>
+                        </div>
+                    </div>                                           
+                </div>            
+            </div>
         </div>
-    </div>             
+    </div>                 
         <!-- Footer begins Here -->
         <footer>       
                 <div id="footer">

@@ -17,23 +17,6 @@ body {
     padding-bottom: 70px;
 }
 
-/* home page main body css */
-.homecolumn {
-    float: left;
-    width: 60%;
-    height: auto;
-    margin-left: 50px; 
-}
-
-/* Specifically for About Page */
-.aboutcolumn {
-    float: left;
-    width: 60%;
-    height: 600px;
-    margin-left: 50px;
-    background-color: rgb(22, 21, 21);
-    padding: 20px 15px;
-}
 
 .thumbnail-caption {
     position: absolute;
@@ -51,40 +34,6 @@ body {
     padding-bottom: 20px;
 }
 
-/* Portfolio Column */
-.portfoliocolumn {
-    /* float: left; */
-    width: 60%;
-    height: auto;
-    margin-left: 15px;
-    margin-bottom: 75px;
-    background-color: rgb(22, 21, 21);
-    /* padding-left: 50px; */
-    /* padding: 10px 25px 30px 25px; */
-}
-
-/* Contact Column */
-.contactcolumn {
-    float: left;
-    width: 60%;
-    height: auto;
-    margin-left: 15px;
-    margin-bottom: 50px;
-    background-color: rgb(22, 21, 21);
-    padding: 10px 25px 30px 25px;
-}
-
-/* side bar for all pages */
-.homesidebar {
-    float: right;
-    width: 30%;
-    height: 200px;
-    margin-right: 20px;
-    background-color: rgb(22, 21, 21);
-    padding: 15px 15px;
-    /* border: solid 5px white; */
-}
-
 .extra-h2 {
     font-family: 'Abril Fatface', cursive;
     color: white;
@@ -92,15 +41,6 @@ body {
     font-weight: bold;
 }
 
-.container-footer {
-    width: 100%;
-    color: white;
-    background-color: rgb(22, 21, 21);
-    line-height: 60px;
-    text-align: center;
-    display: block;
-    border: none;
-}
 
 .secondheader {
     color: white;
@@ -167,7 +107,7 @@ body {
         margin-left: -20px;
         margin-right: -20px;
         padding-left: 20px;
-        padding-right: 20px;
-        
+        padding-right: 20px;   
     }
+
 }
